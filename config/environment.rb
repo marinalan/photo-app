@@ -19,6 +19,6 @@ ActionMailer::Base.smtp_settings = {
   :address        => ENV['MAILGUN_SMTP_SERVER'],
   :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
   :password       => ENV['MAILGUN_SMTP_PASSWORD'],
-  :domain         => 'marinalan-photo-app.herokuapp.com',
+  :domain         => 'marinalan-photo-app.heroku.com',
   :authentication => :plain,
 }
