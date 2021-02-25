@@ -1,0 +1,106 @@
+/*
+@import 'bootstrap/scss/bootstrap';
+@import "font-awesome";
+*/
+/* line 6, app/assets/stylesheets/custom.scss */
+user-name {
+  padding: 0 !important;
+  padding-left: 5px;
+  padding-top: 15px !important;
+  text-align: center;
+}
+
+/* line 11, app/assets/stylesheets/custom.scss */
+user-name a {
+  color: black !important;
+  margin: 0 !important;
+  padding: 5px !important;
+}
+
+/* line 16, app/assets/stylesheets/custom.scss */
+user-name a:hover, user-name a:focus {
+  color: #000 !important;
+}
+
+/* line 21, app/assets/stylesheets/custom.scss */
+.logout {
+  padding-left: 0;
+}
+
+/* line 25, app/assets/stylesheets/custom.scss */
+.nav.navbar-right {
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+/* line 31, app/assets/stylesheets/custom.scss */
+.nav.navbar-nav .navbar-link {
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 15px;
+  padding: 8px;
+}
+
+/* line 37, app/assets/stylesheets/custom.scss */
+.nav.navbar-nav .navbar-link:focus, .nav.navbar-nav .navbar-link:hover {
+  background: #3071a9;
+  color: #fff;
+}
+
+/* line 42, app/assets/stylesheets/custom.scss */
+.nav.navbar-nav li a {
+  margin-right: 5px;
+}
+
+/* line 48, app/assets/stylesheets/custom.scss */
+.nav.navbar-right li .btn {
+  color: #fff !important;
+  margin-top: 5%;
+}
+
+/* line 52, app/assets/stylesheets/custom.scss */
+.nav.navbar-right li .btn-danger:hover, .nav.navbar-right li .btn-danger:focus {
+  background-color: #a02622 !important;
+}
+
+/* line 55, app/assets/stylesheets/custom.scss */
+.nav.navbar-right li .btn-primary:hover, .nav.navbar-right li .btn-primary:focus {
+  background-color: #245682 !important;
+}
+
+/* line 60, app/assets/stylesheets/custom.scss */
+.btn-primary:visited, .btn-danger:visited {
+  color: #fff;
+}
+
+/* line 65, app/assets/stylesheets/custom.scss */
+.features ul {
+  margin-left: 0;
+  padding-left: 15px;
+}
+
+/* line 71, app/assets/stylesheets/custom.scss */
+.jumbotron {
+  text-align: center;
+  background-image: url(/meeting.png);
+  background-size: cover;
+  color: #fff;
+  font-family: 'Helvetica Neue' !important;
+  font-stretch: expanded;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+}
+
+/* line 85, app/assets/stylesheets/custom.scss */
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+/* line 89, app/assets/stylesheets/custom.scss */
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
