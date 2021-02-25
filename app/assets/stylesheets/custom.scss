@@ -70,9 +70,10 @@ user-name {
 
 .jumbotron {
   text-align: center;
-  background-image: asset-url('meeting.png');
+  background-image: image-url('ultra_wide_photography_landscape_nature_sky_2560x1080.jpg');
   background-size: cover;
-  color: #fff;
+  background-repeat: no-repeat;
+  color: #ecdee9;
   font-family: 'Helvetica Neue' !important;
   font-stretch: expanded;
   padding-top: 25px;
