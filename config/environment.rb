@@ -15,10 +15,11 @@ Rails.application.initialize!
 # }
 
 ActionMailer::Base.smtp_settings = {
-  :port           => ENV['MAILGUN_SMTP_PORT'],
-  :address        => ENV['MAILGUN_SMTP_SERVER'],
-  :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
-  :password       => ENV['MAILGUN_SMTP_PASSWORD'],
+  :port           => Rails.application.credentials.smtp[:port],
+  :address        => Rails.application.credentials.smtp[:server],
+  :user_name      => Rails.application.credentials.smtp[:login],
+  :password       => Rails.application.credentials.smtp[:password],
   :domain         => 'marinalan-photo-app.heroku.com',
   :authentication => :plain,
+  :enable_starttls_auto => true
 }
